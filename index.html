@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gangesh Maurya - Junior Data Analyst | Python, SQL, Power BI, Tableau | MCA in AI & ML | Portfolio">
+    <title>Gangesh Maurya - Data Analyst Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --primary: #0d6efd; --dark: #212529; --light: #f8f9fa; --gray: #6c757d; }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--light); color: var(--dark); line-height: 1.6; scroll-behavior: smooth; }
+        header { background: linear-gradient(135deg, var(--primary), #0b5ed7); color: white; text-align: center; padding: 90px 20px 70px; }
+        .profile-img { width: 180px; height: 180px; border-radius: 50%; border: 6px solid rgba(255,255,255,0.3); object-fit: cover; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+        h1 { margin: 20px 0 8px; font-size: 2.8rem; }
+        .tagline { font-size: 1.35rem; opacity: 0.95; }
+        .social-links { margin: 30px 0; display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; }
+        .social-links a { padding: 12px 22px; background: rgba(255,255,255,0.2); color: white; text-decoration: none; border-radius: 50px; font-weight: 600; transition: 0.3s; min-width: 190px; text-align: center; }
+        .social-links a:hover { background: white; color: var(--primary); transform: translateY(-5px); }
+        .social-links i { margin-right: 10px; }
+        nav { background: var(--dark); padding: 18px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        nav ul { list-style: none; padding: 0; margin: 0; text-align: center; }
+        nav ul li { display: inline-block; margin: 0 22px; }
+        nav ul li a { color: white; text-decoration: none; font-weight: 600; padding: 10px 0; position: relative; font-size: 1.1rem; }
+        nav ul li a::after { content: ''; position: absolute; width: 0; height: 3px; bottom: 0; left: 50%; background: var(--primary); transition: 0.3s; }
+        nav ul li a:hover::after { width: 100%; left: 0; }
+        section { max-width: 1100px; margin: 70px auto; padding: 0 20px; }
+        h2 { text-align: center; color: var(--primary); font-size: 2.4rem; margin-bottom: 45px; position: relative; }
+        h2::after { content: ''; width: 80px; height: 4px; background: var(--primary); display: block; margin: 15px auto 0; border-radius: 2px; }
+        .card { background: white; padding: 35px; border-radius: 18px; box-shadow: 0 12px 35px rgba(0,0,0,0.1); margin-bottom: 35px; }
+        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 35px; }
+        .project { border-left: 6px solid var(--primary); padding-left: 22px; transition: transform 0.3s; }
+        .project:hover { transform: translateY(-8px); }
+        .project img { width: 100%; border-radius: 12px; margin: 18px 0; box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+        .strengths { columns: 2; column-gap: 40px; }
+        .strengths li { margin-bottom: 10px; }
+        footer { background: var(--dark); color: white; text-align: center; padding: 50px 20px; margin-top: 100px; }
+        @media (max-width: 768px) { .social-links a { display: block; margin: 12px auto; max-width: 280px; } nav ul li { display: block; margin: 15px 0; } .project-grid { grid-template-columns: 1fr; } .strengths { columns: 1; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Your real photo uploaded by you -->
+        <img src="YOUR_PHOTO_FILENAME.jpg" alt="Gangesh Maurya" class="profile-img">
+        <h1>Gangesh Maurya</h1>
+        <p class="tagline">Junior Data Analyst | BI & ML Enthusiast | Python • SQL • Power BI • Tableau</p>
+        
+        <div class="social-links">
+            <a href="tel:+917355085988"><i class="fas fa-phone"></i> +91 7355085988</a>
+            <a href="tel:+917238080487"><i class="fas fa-phone"></i> +91 7238080487</a>
+            <a href="mailto:gangeshmaurya023@gmail.com"><i class="fas fa-envelope"></i> gangeshmaurya023@gmail.com</a>
+            <a href="https://www.linkedin.com/in/gangesh-maurya-290817146" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn Profile</a>
+            <a href="https://github.com/gangesh988/data_science-machine_learning" target="_blank"><i class="fab fa-github"></i> GitHub Portfolio</a>
+            <a href="Gangesh_Resume_03_12_25.pdf" download><i class="fas fa-download"></i> Download Resume (PDF)</a>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p style="font-size:1.15rem; text-align:center; max-width:900px; margin:0 auto;">
+                Entry-level Data Analyst with hands-on experience in data preprocessing, exploratory analysis, and visualization. Skilled in Python, SQL, Excel, and Tableau to transform raw data into useful insights and support decision making. Ability to clean, structure, and document data workflows with high accuracy. Currently pursuing MCA in Machine Learning & AI to develop advanced analytical and modelling capabilities.
+            </p>
+            
+            <h3 style="text-align:center; margin-top:40px;">Interested Fields</h3>
+            <p style="text-align:center;">Data Analysis, Machine Learning, Business Analytics, Predictive Modelling, Data Visualization, HR Analytics, Retail Analytics</p>
+            
+            <h3 style="text-align:center; margin-top:40px;">Strengths</h3>
+            <ul class="strengths">
+                <li>Analytical thinking and data-driven decision making</li>
+                <li>Ability to interpret complex information clearly</li>
+                <li>Proactive learner with strong work ethic</li>
+                <li>Collaboration and stakeholder coordination</li>
+                <li>Quality-focused, organized, and reliable</li>
+            </ul>
+            
+            <h3 style="text-align:center; margin-top:40px;">Languages</h3>
+            <p style="text-align:center;">English • Hindi</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="card">
+            <h3>Data Science Intern</h3>
+            <p><strong>AI Variant | Remote | Apr 2025 – Jul 2025</strong></p>
+            <ul>
+                <li>Supported development and evaluation of machine learning models.</li>
+                <li>Performed preprocessing, feature engineering, and exploratory data analysis.</li>
+                <li>Used Python libraries (NumPy, Pandas, Scikit-Learn) for analytics and reporting.</li>
+            </ul>
+
+            <h3>Data Annotator (Freelance)</h3>
+            <p><strong>Biz-Tech Analytics | Remote | Dec 2024 – Apr 2025</strong></p>
+            <ul>
+                <li>Annotated and prepared data to support ML workflows.</li>
+                <li>Ensured data quality, consistency, and accurate documentation.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="card">
+            <p><strong>Programming & Analytics:</strong> Python, NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn</p>
+            <p><strong>Data Visualization:</strong> Tableau, Power BI, Excel, Google Sheets</p>
+            <p><strong>Databases:</strong> SQL, MS SQL Server, Tally ERP</p>
+            <p><strong>Other:</strong> Data cleaning, data labeling, reporting, communication</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="card project">
+                <h3>Employee Attrition Prediction using Machine Learning</h3>
+                <p>Analyzed HR dataset to identify drivers of employee turnover and built classification models (Logistic Regression, Random Forest) to predict attrition. Applied feature engineering, model evaluation, and generated insights to support employee retention decisions.</p>
+                <img src="https://media.licdn.com/dms/image/v2/D5622AQH9vtc3dwhmJg/feedshare-shrink_800/B56ZqN8S14JUAk-/0/1763317985999?e=2147483647&v=beta&t=mA4EqNVS7h-wZLc3w7YxVd69GQE7zN-BCjH9yru1jcg" alt="Employee Attrition Dashboard">
+                <img src="https://media.licdn.com/dms/image/v2/D5612AQEUTbSESJCFNw/article-cover_image-shrink_720_1280/B56Zby25QAHgAI-/0/1747831200718?e=2147483647&v=beta&t=ZhWGdn6VLM3yUkpvsXgLhqiEXY_kd1vAd54ZmX1JlvQ" alt="HR Analytics Tableau Dashboard">
+            </div>
+
+            <div class="card project">
+                <h3>Retail Sales Forecasting with Time-Series Analysis</h3>
+                <p>Cleaned and analyzed retail sales data to detect trends and seasonality, implemented forecasting models (ARIMA/Prophet), and evaluated accuracy using MAPE and RMSE. Created visual summaries to support planning and decision-making.</p>
+                <img src="https://images.ctfassets.net/mmgv7yhaaeds/4fjFV9QmkdxfwZgoQwfX4J/ae4c0cad23501405fb4bc9cf57ff830d/Visualize_Forecast.png?w=2000&h=1400&q=65&fm=png&bg=transparent" alt="Prophet Forecasting Visualization">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/1*fESN1DOV7Iak3pyg2ZUqOw.png" alt="ARIMA vs Prophet Comparison">
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="card">
+            <p><strong>Data Science & Machine Learning – ExcelR</strong> | Jan 2025 – Jun 2025<br>
+            • Machine Learning, Advanced Python, Tableau</p>
+            
+            <p><strong>CCC (Course on Computer Concepts)</strong><br>
+            • Basic computer operations, MS Office tools, internet usage, digital productivity</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+            <p><strong>Master of Computer Application (Machine Learning & AI) — Pursuing</strong><br>
+            Lovely Professional University | 2025 – 2027</p>
+            
+            <p><strong>Bachelor of Science – Mathematics & Computer Science</strong><br>
+            SHIA PG College, Lucknow | Apr 2021 – Dec 2024 | 61.8%</p>
+            
+            <p><strong>Diploma in Financial Accounting</strong><br>
+            GINHT Gorakhpur | 86.4% | Apr 2021</p>
+            
+            <p><strong>12th Standard</strong> | 68.80% | Jun 2020</p>
+            <p><strong>10th Standard</strong> | 86.66% | Apr 2018</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Gangesh Maurya. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
